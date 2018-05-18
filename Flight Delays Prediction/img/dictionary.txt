@@ -1,0 +1,50 @@
+# === DICTIONARY for the raw data "flights_combo" ===
+
+# MEMORY USAGE ----------- 192 MB
+# DATA COLUMNS ----------- 44
+# DATA ENTRIES ----------- 570007 
+# Types ------------------ float64(For 21 columns), int64(For 9 columns), object(For 14 columns)
+
+# YEAR ------------------ Year of the Flight Trip ----------- Type: int64
+# MONTH ----------------- Month of the Flight Trip ---------- Type: int64
+# DAY ------------------- Day of the flight Trip ------------ Type: int64
+# DAY OF WEEK ----------- Day of week of the Flight Trip ---- Type: int64
+# AIRLINE CODE ---------- Airline Identifier ---------------- Type: object
+# TAIL NUMBER ----------- Aircraft Identifier --------------- Type: object
+# FLIGHT NUMBER --------- Flight Identifier ----------------- Type: int64
+# ORIGIN AIRPORT -------- Departure Airport ----------------- Type: object
+# DESTINATION AIRPORT --- Airport of Arrival ---------------- Type: object
+# SCHEDULED DEPARTURE --- Planned Departure Time ------------ Type: int64
+# DEPARTURE TIME -------- Start Engines --------------------- Type: float64
+# DEPARTURE DELAY ------- Total Delay on Departure ---------- Type: float64
+# TAXI OUT -------------- Time from Parking to Runway ------- Type: float64
+# WHEELS OFF ------------ The Time Wheels Leave the Ground -- Type: float64
+# WHEELS ON ------------- The Time Wheels Touch the Ground -- Type: float64
+# TAXI IN --------------- Time From Runway to The Gate ------ Type: float64
+# SCHEDULED ARRIVAL ----- Planned Arrival Time -------------- Type: float64
+# ARRIVAL TIME ---------- Engines Off ----------------------- Type: float64
+# ARRIVAL DELAY --------- Delay Time if True ---------------- Type: float64
+# CANCELED -------------- Canceled Flight 1-yes/0-no -------- Type: float64
+# CANCELATION REASON ---- Reason for Cancelation ------------ Type: object
+# DIVERTED -------------- Landed on Dispersal Field 1/0 ----- Type: float64
+# SCHEDULED TIME -------- Planned Trip Time Engines ON/OFF -- Type: float64
+# ELAPSED TIME ---------- Real trip Time Engines ON/OFF ----- Type: float64
+# AIR TIME -------------- Time From Take Off and Touchdown -- Type: float64
+# DISTANCE -------------- Distance Between Two Airports ----- Type: float64
+# AIRLINE DELAY --------- Delay Caused by Airline ----------- Type: float64
+# WEATHER DELAY --------- Delay Caused by Weather ----------- Type: float64
+# AIR SYSTEM DELAY ------ Delay Caused by Air System -------- Type: float64
+# SECURITY DELAY -------- Delay Caused by Security ---------- Type: float64
+# LATE AIRCRAFT DELAY --- Delay Caused by Aircraft ---------- Type: float64
+# AIRPORT ORIGIN -------- Name Of Origin Airport ------------ Type: object
+# CITY ORIGIN ----------- Name of Departure City ------------ Type: object
+# STATE ORIGIN ---------- Name of Departure State ----------- Type: object
+# LATITUDE ORIGIN ------- Departure Coordinates ------------- Type: float64
+# LONGITUDE ORIGIN ------ Departure Coordinates ------------- Type: object
+# AIRLINE --------------- Name of Airline ------------------- Type: object
+# AIRPORT DESTINATION --- Name of Destination Airport ------- Type: object
+# CITY DESTINATION ------ Name of Destination City ---------- Type: object
+# STATE DESTINATION ----- Name of destination State --------- Type: object
+# LATITUDE DESTINATION -- Destination Coordinates ----------- Type: float64
+# LONGITUDE DESTINATION - Destination Coordinates ----------- Type: object
+

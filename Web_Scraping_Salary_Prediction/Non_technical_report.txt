@@ -1,0 +1,27 @@
+Imagine you are looking for a job, and you going through all websites job search to find what you are looking for. But what if there is more easier way to do so.
+
+Goal for this project was to get data related to job posts from Internet. 
+I used my code which automatically collect all information from website Indeed.com. All this data collection takes time even for Computer, I had to wait 2 hours to get it all done. We know that when we are looking for a job, not every post has included salary to this position. That was first challenge to predict possible salary. 
+I prepared my data which I got from Indeed.com, made it more readable and clean, to start doing manipulation with it to predict salaries. I was interesting in salary above $110000 and below $110000. 
+Before doing any prediction I analyzed data I have. I found interesting things that jobs with high salary more often from Brisbane. Also if you are looking for junior position you probably will get a job with 2 times lower salary than senior position, it will make you understanding how much more money you will be earning as soon as you become more professional. Also some position has very big salary above $250k. To find job posting with given salary much more easier in Sydney or Melbourne, that also because there bigger  number of advertisements. If I can trust my analysis it is much more harder to find job in Perth with salary above $140k. 
+Finally I use my techniques to analyze summaries from job postings, and got from it all information I need. Using all this information I been able to predict salary if its higher than 110000k or less. After all manipulations I put my two peaces together, one peace was with given salary and another peace was with predicted salary. Now I have clear understanding what jobs is has lower salary and what jobs has high salary. 
+Also I would like to find words in job summary which are really helps to recognize to which job this advertisement is related to (Data Scientist or Business Analyst). I could use this key words in my resume for example when I apply for job. When I was using my code I get good result to predict Business Analyst jobs, and on another hand It was harder to predict Data Scientist job. Main reason I think that because I didn’t have enough data for the Data Scientists. Many posts on this website is related to Business Analyst and only few for Data Scientist. If we could get more data about Data Scientist job we could get much more better result. So I got few words, in case if you would like to apply: 
+
+For Data Scientist job, it is better use some of this words: 
+- programming, 
+- problem solving, 
+- attributes, 
+- science, 
+- data, 
+- development.
+
+And if you are looking for a job as a Business Analyst:
+- business problems, 
+- banking, 
+- financial services, 
+- confidential, 
+- project, 
+- support, 
+- client, 
+- process. 
+To sum up everything I would say that we can get needed data from everything we are interesting in, and analyze it way we need it. We can use our skills in predicting some missing information and use it later for our analyses.
